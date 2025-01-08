@@ -1,0 +1,186 @@
+@font-face {
+  font-family: Jersey;
+  src: url(Jersey15-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+
+
+
+.header {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  background-color: var(--bg-color-light);
+  border-bottom: 1px solid var(--border-color-light);
+  font-family: Jersey;
+  font-size: 3vw;
+
+}
+
+span {
+  color: #ff9500;
+  font-family: Jersey;
+  font-size: 6vw;
+}
+
+.dark {
+  --bg-color: #121212;
+  --bg-color-light: #1e1e1e;
+  --bg-hover-color: #2a2a2a;
+  --border-color: #333;
+  --border-color-light: #999;
+
+  --bg-operator-color: #cc7700;
+  --bg-egale-color: #1565c0;
+
+  --text-color: #fff;
+  --text-color-light: #fff;
+}
+
+.light {
+  --bg-color: #f0f0f0;
+  --bg-color-light: #fff;
+  --bg-hover-color: #ddd;
+  --border-color: #333;
+  --border-color-light: #999;
+
+  --bg-operator-color: #ff9500;
+  --bg-egale-color: #2196f3;
+
+  --text-color: #000;
+  --text-color-light: #fff;
+}
+
+body {
+  background-color: var(--bg-color-light);
+}
+
+#theme-button {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--bg-color-light);
+  border: 1px solid var(--border-color-light);
+  border-radius: 5px;
+}
+
+#theme-button:hover {
+  background-color: var(--bg-hover-color);
+}
+
+#theme-button[data-theme="light"] #moon-icon {
+  display: none;
+}
+
+#theme-button[data-theme="dark"] #sun-icon {
+  display: none;
+}
+
+.calculatrice {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  background-color: var(--bg-color);
+  font-family: Arial, sans-serif;
+}
+
+#ecran {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: right;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: var(--bg-color-light);
+  border: 1px solid var(--border-color-light);
+  border-radius: 5px;
+}
+
+.touches {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+button {
+  padding: 15px;
+  font-size: 18px;
+  border: 1px solid var(--border-color-light);
+  border-radius: 5px;
+  background-color: var(--bg-color-light);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--bg-hover-color);
+}
+
+.button-hover {
+  background-color: #ddd;
+}
+
+.button-hover2 {
+  background-color: #b06600;
+}
+
+.operateur {
+  background-color: var(--bg-operator-color);
+  color: var(--text-color-light);
+}
+
+.egale {
+  background-color: var(--bg-egale-color);
+  color: var(--text-color-light);
+}
+
+.historique {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  background-color: var(--bg-color);
+  font-family: Arial, sans-serif;
+}
+
+.historique h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.historique ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.historique li {
+  padding: 5px;
+  border-bottom: 1px solid var(--border-color-light);
+}
+
+#btn-effacer-historique {
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 53px;
+  font-size: 16px;
+  border: 1px solid var(--border-color-light);
+  border-radius: 5px;
+  background-color: var(--bg-color-light);
+  cursor: pointer;
+}
+
+#btn-effacer-historique:hover {
+  background-color: var(--bg-hover-color);
+}
+
