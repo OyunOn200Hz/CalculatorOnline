@@ -61,14 +61,6 @@ Aucune installation supplémentaire n'est nécessaire !
 
 Vous pouvez facilement modifier l'apparence en éditant les variables CSS dans le fichier `styles.css`.
 
-Par exemple :
-/* Exemple de modification du thème clair /
-.light {
---bg-color: #ffffff; / couleur de fond principale /
---bg-operator-color: #ff9500; / couleur des opérateurs /
-/ autres variables... */
-}
-
 ## 🤝 Contribution
 
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à proposer une pull request pour améliorer ce projet.
