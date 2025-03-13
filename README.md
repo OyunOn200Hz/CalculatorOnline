@@ -20,8 +20,7 @@ Une calculatrice web interactive avec gestion de thèmes clair/sombre, historiqu
 
 ## 📁 Structure du projet
 
-calculatrice/<br>
-│<br>
+calculatrice/<br>│<br>
 ├── index.html # Page HTML principale<br>
 ├── styles.css # Styles CSS et gestion des thèmes<br>
 ├── script.js # Logique JavaScript de la calculatrice<br>
