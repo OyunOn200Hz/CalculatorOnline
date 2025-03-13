@@ -22,10 +22,15 @@ Une calculatrice web interactive avec gestion de thèmes clair/sombre, historiqu
 
 calculatrice-en-ligne/
 │
+
 ├── index.html # Page HTML principale
+
 ├── styles.css # Styles CSS et gestion des thèmes
+
 ├── script.js # Logique JavaScript de la calculatrice
+
 └── Jersey15-Regular.ttf # Police personnalisée utilisée dans l'interface
+
 
 
 ## 🎨 Thèmes disponibles
