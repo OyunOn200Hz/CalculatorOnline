@@ -20,7 +20,8 @@ Une calculatrice web interactive avec gestion de thèmes clair/sombre, historiqu
 
 ## 📁 Structure du projet
 
-calculatrice-en-ligne/
+calculatrice/
+
 │
 
 ├── index.html # Page HTML principale
