@@ -52,7 +52,7 @@ Le thème choisi est sauvegardé automatiquement dans votre navigateur.
 ## 🚦 Installation rapide
 
 1. Clonez ce dépôt :
-```git clone https://github.com/votre-utilisateur/calculatrice-en-ligne.git```
+```git clone https://github.com/OyunOn200Hz/CalculatorOnline.git```
 2. Ouvrez simplement le fichier `index.html` dans votre navigateur préféré.
 
 Aucune installation supplémentaire n'est nécessaire !
